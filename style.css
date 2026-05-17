@@ -38,7 +38,7 @@ body {
 }
 
 .mega-menu {
-    position: absolute;
+    position:absolute;
     left: 50%;
     transform: translateX(-50%);
 
@@ -51,6 +51,7 @@ body {
 
     grid-template-columns: repeat(5, 1fr);
     gap: 15px;
+    z-index: 2;
 }
 
 /* mostrar ao passar o mouse */
@@ -215,8 +216,8 @@ body {
 
     .title {
 
-        gap: 100px;
-        font-size: 40px;
+        gap: 20px;
+        font-size: 45px;
 
     }
 
@@ -226,7 +227,19 @@ body {
     }
 
     .text {
-        font-size: 35px;
+        font-size: 40px;
+    }
+
+    .mega-menu {
+
+        width: 700px;
+        background: #6b6b6b;
+        border-radius: 12px;
+        padding: 8px;
+        gap: 10px;
+    }
+    .navbar .mega-menu a {
+        font-size: 30px;
     }
 
     .tabela_cartas img {
@@ -239,7 +252,7 @@ body {
         border: 2px solid rgb(255, 255, 255);
         border-radius: 14px;
         cursor: pointer;
-        
+
 
     }
 
@@ -247,10 +260,11 @@ body {
         border-collapse: separate;
         border-spacing: 10px 10px;
     }
+
     #btn-reiniciar {
-    padding: 8px 12px;
-    font-size: 35px;
-    border-radius: 8px;
+        padding: 8px 12px;
+        font-size: 35px;
+        border-radius: 8px;
     }
 
 
@@ -296,7 +310,7 @@ body {
     .title {
 
         gap: 20px;
-        font-size: 17px;
+        font-size: 20px;
 
     }
 
@@ -306,8 +320,23 @@ body {
     }
 
     .text {
-        font-size: 16px;
+        font-size: 19px;
     }
+
+
+    .mega-menu {
+
+        width: 300px;
+        background: #6b6b6b;
+        border-radius: 5px;
+        padding: 5px;
+        gap: 5px;
+    }
+    .navbar .mega-menu a {
+        font-size: 13px;
+    }
+
+
 
     .tabela_cartas img {
         height: 80px;
@@ -329,10 +358,11 @@ body {
         border-collapse: separate;
         border-spacing: 10px 10px;
     }
+
     #btn-reiniciar {
-    padding: 8px 12px;
-    font-size: 16px;
-    border-radius: 8px;
+        padding: 8px 12px;
+        font-size: 16px;
+        border-radius: 8px;
     }
 }
 
@@ -382,17 +412,30 @@ body {
 
     .title {
 
-        gap: 50px;
-        font-size: 12px;
+        gap: 15px;
+        font-size: 20px;
 
     }
 
     .title img {
-        height: 25px;
+        height: 45px;
         transform: rotateZ(22deg);
     }
 
     .text {
+        font-size: 15px;
+    }
+
+
+    .mega-menu {
+
+        width: 250px;
+        background: #6b6b6b;
+        border-radius: 5px;
+        padding: 5px;
+        gap: 3px;
+    }
+    .navbar .mega-menu a {
         font-size: 10px;
     }
 
@@ -416,9 +459,10 @@ body {
         border-collapse: separate;
         border-spacing: 10px 10px;
     }
+
     #btn-reiniciar {
-    padding: 5px 10px;
-    font-size: 10px;
-    border-radius: 6px;
+        padding: 5px 10px;
+        font-size: 10px;
+        border-radius: 6px;
     }
 }

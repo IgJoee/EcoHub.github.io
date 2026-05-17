@@ -2,30 +2,30 @@
 // Ligamos a imagem da lixeira com a imagem do objeto usando o mesmo "idPar"
 const listaCartasBase = [
     // --- 10 Lixeiras ---
-    { idPar: 'papel',    imagem: './img/lixeira_azul.PNG' },
-    { idPar: 'vidro',    imagem: './img/lixeira_verde.PNG' },
-    { idPar: 'plastico', imagem: './img/lixeira_vermelha.PNG' },
-    { idPar: 'metal',    imagem: './img/lixeira_amarela.PNG' },
-    { idPar: 'madeira',  imagem: './img/lixeira_preta.PNG' },
+    { idPar: 'papel',    imagem: '/img/lixeira_azul.png' },
+    { idPar: 'vidro',    imagem: '/img/lixeira_verde.png' },
+    { idPar: 'plastico', imagem: '/img/lixeira_vermelha.png' },
+    { idPar: 'metal',    imagem: '/img/lixeira_amarela.png' },
+    { idPar: 'madeira',  imagem: '/img/lixeira_preta.png' },
     
-    { idPar: 'saude',    imagem: './img/lixeira_branca.PNG' },
-    { idPar: 'perigoso', imagem: './img/lixeira_laranja.PNG' },
-    { idPar: 'radioat',  imagem: './img/lixeira_roxa.PNG' },
-    { idPar: 'organico', imagem: './img/lixeira_marrom.PNG' },
-    { idPar: 'nao_recic',imagem: './img/lixeira_cinza.PNG' },
+    { idPar: 'saude',    imagem: '/img/lixeira_branca.png' },
+    { idPar: 'perigoso', imagem: '/img/lixeira_laranja.png' },
+    { idPar: 'radioat',  imagem: '/img/lixeira_roxa.png' },
+    { idPar: 'organico', imagem: '/img/lixeira_marrom.png' },
+    { idPar: 'nao_recic',imagem: '/img/lixeira_cinza.png' },
 
     // --- 10 Objetos Correspondentes ---
-    { idPar: 'papel',    imagem: './img/papel.PNG' },
-    { idPar: 'vidro',    imagem: './img/garrafa_vidro.PNG' },
-    { idPar: 'plastico', imagem: './img/garrafa.PNG' },
-    { idPar: 'metal',    imagem: './img/lata.PNG' },
-    { idPar: 'madeira',  imagem: './img/madeira.PNG' },
+    { idPar: 'papel',    imagem: '/img/papel.png' },
+    { idPar: 'vidro',    imagem: '/img/garrafa_vidro.png' },
+    { idPar: 'plastico', imagem: '/img/garrafa.png' },
+    { idPar: 'metal',    imagem: '/img/lata.png' },
+    { idPar: 'madeira',  imagem: '/img/madeira.png' },
     
-    { idPar: 'saude',    imagem: './img/saude.PNG' },
-    { idPar: 'perigoso', imagem: './img/pilha.PNG' },
-    { idPar: 'radioat',  imagem: './img/radioativo.PNG' },
-    { idPar: 'organico', imagem: './img/organico.PNG' },
-    { idPar: 'nao_recic',imagem: './img/naroreciclavel.PNG' }
+    { idPar: 'saude',    imagem: '/img/saude.png' },
+    { idPar: 'perigoso', imagem: '/img/pilha.png' },
+    { idPar: 'radioat',  imagem: '/img/radioativo.png' },
+    { idPar: 'organico', imagem: '/img/organico.png' },
+    { idPar: 'nao_recic',imagem: '/img/naroreciclavel.png' }
 ];
 
 const celulas = document.querySelectorAll('.tabela_cartas td');
