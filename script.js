@@ -2,30 +2,30 @@
 // Ligamos a imagem da lixeira com a imagem do objeto usando o mesmo "idPar"
 const listaCartasBase = [
     // --- 10 Lixeiras ---
-    { idPar: 'papel',    imagem: './img/lixeira_azul.png' },
-    { idPar: 'vidro',    imagem: './img/lixeira_verde.png' },
-    { idPar: 'plastico', imagem: './img/lixeira_vermelha.png' },
-    { idPar: 'metal',    imagem: './img/lixeira_amarela.png' },
-    { idPar: 'madeira',  imagem: './img/lixeira_preta.png' },
+    { idPar: 'papel',    imagem: 'https://igjoee.github.io/EcoHub.github.io/img/lixeira_azul.png' },
+    { idPar: 'vidro',    imagem: 'https://igjoee.github.io/EcoHub.github.io/img/lixeira_verde.png' },
+    { idPar: 'plastico', imagem: 'https://igjoee.github.io/EcoHub.github.io/img/lixeira_vermelha.png' },
+    { idPar: 'metal',    imagem: 'https://igjoee.github.io/EcoHub.github.io/img/lixeira_amarela.png' },
+    { idPar: 'madeira',  imagem: 'https://igjoee.github.io/EcoHub.github.io/img/lixeira_preta.png' },
     
-    { idPar: 'saude',    imagem: './img/lixeira_branca.png' },
-    { idPar: 'perigoso', imagem: './img/lixeira_laranja.png' },
-    { idPar: 'radioat',  imagem: './img/lixeira_roxa.png' },
-    { idPar: 'organico', imagem: './img/lixeira_marrom.png' },
-    { idPar: 'nao_recic',imagem: './img/lixeira_cinza.png' },
+    { idPar: 'saude',    imagem: 'https://igjoee.github.io/EcoHub.github.io/img/lixeira_branca.png' },
+    { idPar: 'perigoso', imagem: 'https://igjoee.github.io/EcoHub.github.io/img/lixeira_laranja.png' },
+    { idPar: 'radioat',  imagem: 'https://igjoee.github.io/EcoHub.github.io/img/lixeira_roxa.png' },
+    { idPar: 'organico', imagem: 'https://igjoee.github.io/EcoHub.github.io/img/lixeira_marrom.png' },
+    { idPar: 'nao_recic',imagem: 'https://igjoee.github.io/EcoHub.github.io/img/lixeira_cinza.png' },
 
     // --- 10 Objetos Correspondentes ---
-    { idPar: 'papel',    imagem: './img/papel.png' },
-    { idPar: 'vidro',    imagem: './img/garrafa_vidro.png' },
-    { idPar: 'plastico', imagem: './img/garrafa.png' },
-    { idPar: 'metal',    imagem: './img/lata.png' },
-    { idPar: 'madeira',  imagem: './img/madeira.png' },
+    { idPar: 'papel',    imagem: 'https://igjoee.github.io/EcoHub.github.io/img/papel.png' },
+    { idPar: 'vidro',    imagem: 'https://igjoee.github.io/EcoHub.github.io/img/garrafa_vidro.png' },
+    { idPar: 'plastico', imagem: 'https://igjoee.github.io/EcoHub.github.io/img/garrafa.png' },
+    { idPar: 'metal',    imagem: 'https://igjoee.github.io/EcoHub.github.io/img/lata.png' },
+    { idPar: 'madeira',  imagem: 'https://igjoee.github.io/EcoHub.github.io/img/madeira.png' },
     
-    { idPar: 'saude',    imagem: './img/saude.png' },
-    { idPar: 'perigoso', imagem: './img/pilha.png' },
-    { idPar: 'radioat',  imagem: './img/radioativo.png' },
-    { idPar: 'organico', imagem: './img/organico.png' },
-    { idPar: 'nao_recic',imagem: './img/naroreciclavel.png' }
+    { idPar: 'saude',    imagem: 'https://igjoee.github.io/EcoHub.github.io/img/saude.png' },
+    { idPar: 'perigoso', imagem: 'https://igjoee.github.io/EcoHub.github.io/img/pilha.png' },
+    { idPar: 'radioat',  imagem: 'https://igjoee.github.io/EcoHub.github.io/img/radioativo.png' },
+    { idPar: 'organico', imagem: 'https://igjoee.github.io/EcoHub.github.io/img/organico.png' },
+    { idPar: 'nao_recic',imagem: 'https://igjoee.github.io/EcoHub.github.io/img/naroreciclavel.png' }
 ];
 
 const celulas = document.querySelectorAll('.tabela_cartas td');
